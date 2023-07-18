@@ -13,3 +13,16 @@ if variable_1 ==variable_2:
     print("equal")
 
 print("Not equal")
+
+new1=True
+new2=False
+new3=True
+print(new1 and new2)
+print(new1 and new3)
+print(new2 and new1)
+print(new1 or new2)
+print(new2 or new1)
+print(not(new1))
+
+print((new1 and new2)or (new2 and new3))
+
