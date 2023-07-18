@@ -14,3 +14,22 @@ print(type(a+b))
 print(type(c))
 print(type(d))
 print(type(e))
+print(10//3) #floor division (it returns quotient of operation)
+print(2**4)#return 2's power 4
+3*9
+#print(_)   #in jupyter notebook _ stores the last unsaved value
+
+
+##strings operation
+name="anukul"
+last_name="banjade"
+print(name+" "+last_name)
+abc=name.upper()
+print(abc)
+print(abc.lower())
+
+
+
+
+
+
