@@ -47,5 +47,13 @@ print(divmod1[1])
 print(isinstance(6,int))    #isinstance() check the value is specific data type or not here in this line of code it is checking 6 is int or not and returns it in bool format
 
 
-#pow(x,y,z)  x raise to y and remainder z
-print(pow(2,4,4))
+#pow(x,y,z)  x raise to y and modulus z
+print(pow(2,4,)) 
+
+print(2**6)
+
+#input function
+first_name=input(str("Enter your First name: "))
+last_name=input(str("Enter Your Last Name:  "))
+print(f"Your name is {first_name} {last_name}")
+
