@@ -1,7 +1,10 @@
-Input1=int(input("Enter the number you want to perform multiplication:"))
-print(f"The multiplication table of {Input1}  is ")
-j=1
-while j<=10:
-    print(Input1*j)
-    j+=1
-
+i=27
+while True:
+    if i%17 ==0:
+        print("breaking the Line")
+        break
+    else:
+        i+=1
+        continue
+    print("i am inside the loops")
+print("Done")
