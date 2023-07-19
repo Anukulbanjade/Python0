@@ -62,3 +62,5 @@ for num in numbers:
     if num % 2 == 0:
         continue  # Skips the even numbers
     print(num)
+
+#for Loops
