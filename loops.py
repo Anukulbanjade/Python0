@@ -57,10 +57,43 @@ It is useful when you want to bypass specific iterations but continue the loop's
 After encountering continue, the program skips the rest of the loop's body and proceeds with the next iteration.
 """
 #Example:
-numbers = [1, 2, 3, 4, 5]
-for num in numbers:
-    if num % 2 == 0:
-        continue  # Skips the even numbers
-    print(num)
+L=[]
+for i in range(10):
+    print(i+1)
+    L.append(i**2)
+    #4:46:40
 
-#for Loops
+s={"apple",4.9,"cherry",}
+i=1
+for x in s:
+    print(x)
+    i+=1
+    if i==3:
+        break
+else:
+    print("Loop Completes its iteration")
+
+#dictionary
+D={"apple":44,"cherry":"game"}          #"key":"Value"
+for x in D:
+    print(x,D[0])
+
+"""
+IMPORTANT NEED TO Study later
+
+Given a list of number i.e.[1,2,3,4,-5,7,9,3,2] , make another list of number that contains all the items in sorted order from min to max . i.e . your result will be another list in acending order 
+"""
+L=[1,2,3,4,-5,7,9,3,2]
+for j in range(len(L)):
+    m=L[j]
+    idx=j
+    c=j
+    for i in range(j,len(L)):
+        if L[i]<m:
+            m=L[i]
+            idx=c
+        c+=1
+    tmp=L[j]
+    L[j]=m
+    L[idx]=tmp
+print(L)

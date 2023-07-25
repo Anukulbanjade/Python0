@@ -1,10 +1,7 @@
-i=27
-while True:
-    if i%17 ==0:
-        print("breaking the Line")
-        break
-    else:
-        i+=1
-        continue
-    print("i am inside the loops")
-print("Done")
+def multiplication(*abc):
+    mul=1
+    for i in range(len(abc)):
+        mul=abc[i]*mul
+    return print(mul)
+
+multiplication(7,8,9)
