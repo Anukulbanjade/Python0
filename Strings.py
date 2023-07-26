@@ -32,3 +32,20 @@ abc=multiline[1:15]
 print(abc)
 print(abc[::-1]) #reversing the string
 #8:05:24
+#Continuing 
+#.replace function()
+
+a="ABC deFg ;; sadfa QF"
+print(a.replace(a[0:5],'EARTH'))
+print(a.replace(';','!@#$'))
+print(a.replace(';;','!@#$'))
+
+#Split() function
+ab='''This is a string ; def; etry;pavd;
+    eer45
+   ''' 
+l=ab.split(";")
+print(l[4])
+
+print(a.removesuffix("QF"))
+#there are many functions in python just press .+ TAB in Jupyter Notebook to see available function\n and in vs code if 'a' contains strings just type a.(functions will appear here.)
