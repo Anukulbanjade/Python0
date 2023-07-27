@@ -77,9 +77,19 @@ d2={
     "Age":15,
     "Campus":"PK"
     }
-#print(d2+d) we cannot add two dictionary
-
+#print(d2+d) we cannot add two dictionary but we can update()
+d.update(d2)
+print(d)
 #we can delete  all datastructures by del function
 # remove(),pop()etc
 
- 
+print(l)
+temp=l  #points both list in same memory location(reference)
+temp[1]="Update"    #affects are seen in both l and temp
+print(temp)
+
+#copy()
+abc=l.copy()    #it creates abc as new list 
+print(abc)      #affects are not seen
+ #a=l       it gives the view of list
+ #a.copy    it gives the copy of the list
