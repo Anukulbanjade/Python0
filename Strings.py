@@ -48,4 +48,22 @@ l=ab.split(";")
 print(l[4])
 
 print(a.removesuffix("QF"))
+print(a.count("e"))
+
+#in /not in function
+str1="helloworldinchina"
+print("inch" in str1 )
+print("inca" not in str1)
+
+str2="Python"
+print("We are Learning %s here"%str2)
+print("We are Learning \"string \"here") #here \ denotes don't  touch (" ") so it does not break 
+#otherwise
+print("We are \n Learning'string' here")
+
+print("C:\name\drive")
+#to overcome this issue we use r  it means (raw)
+print(r"C:\name\drive")
+
+
 #there are many functions in python just press .+ TAB in Jupyter Notebook to see available function\n and in vs code if 'a' contains strings just type a.(functions will appear here.)
