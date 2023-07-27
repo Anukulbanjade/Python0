@@ -91,5 +91,15 @@ print(temp)
 #copy()
 abc=l.copy()    #it creates abc as new list 
 print(abc)      #affects are not seen
- #a=l       it gives the view of list
- #a.copy    it gives the copy of the list
+ #a=l           it gives the view of list
+ #a.copy        it gives the copy of the list
+ #append()      it append the elements at EOL
+ #clear()       removes all items from List
+ # pop()        removes the last items of list
+ #reverse()     reverse the list  &&[::-1]
+ # update() 
+ 
+ #  A
+ 
+ #exercise in python
+#9:11:58
