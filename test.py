@@ -3,5 +3,3 @@ def multiplication(*abc):
     for i in range(len(abc)):
         mul=abc[i]*mul
     return print(mul)
-
-multiplication(7,8,9)
