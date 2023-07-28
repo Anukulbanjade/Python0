@@ -56,3 +56,31 @@ print("np.random.permutation()")
 array1=np.arange(1,25)
 print(np.random.permutation(array1)) #it randomize the array in suffling way
 print(np.random.randint(array1)) #randomize the integer(randominteger)
+array2=np.arange(0,10)#reshape() helps to reshape the array,it should in valid format according to the number of array
+print(array2.reshape(2,5))
+
+abc=np.random.rand(1000)#using rand
+print(abc)
+import matplotlib.pyplot as plt
+plt.hist(abc,bins=100)#plotting the histogram
+#plt.show()#showing the  output
+b=np.random.randn(1000)
+plt.hist(b,bins=200)
+#plt.show()
+#np.random is important for generating various random operation
+c=np.random.rand(2,3)#generate 2*3 matrix with random number
+print(c)
+print(c.ndim)
+
+#indexing and slicing in Numpy Array
+aaa=np.arange(100)
+bbb=aaa[1:15]
+print(bbb)
+bbb[2]=-10
+bbb=aaa[1:15].copy()
+print(bbb)
+print(aaa) 
+print(aaa[::5])
+print(aaa[::-5])
+print(aaa[::-1])
+
